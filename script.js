@@ -3,7 +3,7 @@
   function verificarContraseña() {
     var password = document.getElementById("password").value;
     var imagen = document.querySelector('.img');
-    if (password === "PQX") {
+    if (password === "Minsal") {
         document.getElementById("form").style.display = "block";
         document.getElementById("acceso").style.display = "none";
         imagen.style.display = 'none';
